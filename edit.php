@@ -455,11 +455,9 @@
         <h1>Editar Estado</h1>
 
         <?php
-            $query = $_GET["county"];
-            foreach ($countiesdata as $county => $values) {
-                if ($query == $county) {
-                    echo "<p>deu certo no estado $county</p>";
-                }
+            foreach ($countiesdata[$_GET["county"]] as $key => $value) {
+                echo $value;
+                break;
             }
         ?>
     </main>
