@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/56796cbec0.js" crossorigin="anonymous"></script>
-    <title>Estados do Brasil</title>
+    <title>Editar Estado</title>
 </head>
+
 <body>
     <header>
         <h2>WebDev2023</h2>
     </header>
+
     <main>
         <?php
             $countiesdata = [
@@ -29,8 +31,7 @@
                     'IDH (2010)' => 0.663,
                     'Alfabetização (2016)' => '86.9%',
                     'Mortalidade infantil (2016)' => '17.0‰',
-                    'Expectativa de vida (2016)' => '73.9 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Expectativa de vida (2016)' => '73.9 anos'
                 ),
                 'Alagoas' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/8/88/Bandeira_de_Alagoas.svg',
@@ -46,8 +47,7 @@
                     'IDH (2010)' => 0.631,
                     'Alfabetização (2016)' => '80.6%',
                     'Mortalidade infantil (2016)' => '19.5‰',
-                    'Expectativa de vida (2016)' => '71.6 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Expectativa de vida (2016)' => '71.6 anos'
                 ),
                 'Amapa' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/0/0c/Bandeira_do_Amapá.svg',
@@ -63,8 +63,7 @@
                     'IDH (2010)' => 0.708,
                     'Alfabetização (2016)' => '95%',
                     'Mortalidade infantil (2016)' => '23.2‰',
-                    'Expectativa de vida (2016)' => '73.9 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Expectativa de vida (2016)' => '73.9 anos'
                 ),
                 'Amazonas' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/6/6b/Bandeira_do_Amazonas.svg',
@@ -80,8 +79,7 @@
                     'IDH (2010)' => 0.674,
                     'Alfabetização (2016)' => '93.1%',
                     'Mortalidade infantil (2016)' => '18.2‰',
-                    'Expectativa de vida (2016)' => '71.9 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Expectativa de vida (2016)' => '71.9 anos'
                 ),
                 'Bahia' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/2/28/Bandeira_da_Bahia.svg',
@@ -97,8 +95,7 @@
                     'IDH (2010)' => 0.660,
                     'Alfabetização (2016)' => '87%',
                     'Mortalidade infantil (2016)' => '17.3‰',
-                    'Expectativa de vida (2016)' => '73.5 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Expectativa de vida (2016)' => '73.5 anos'
                 ),
                 'Ceara' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/2/2e/Bandeira_do_Ceará.svg',
@@ -114,8 +111,7 @@
                     'IDH (2010)' => 0.682,
                     'Alfabetização (2016)' => '84.8%',
                     'Mortalidade infantil (2016)' => '14.4‰',
-                    'Expectativa de vida (2016)' => '73.8 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Expectativa de vida (2016)' => '73.8 anos'
                 ),
                 'Distrito Federal' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/3/3c/Bandeira_do_Distrito_Federal_%28Brasil%29.svg',
@@ -131,8 +127,7 @@
                     'IDH (2010)' => 0.824,
                     'Alfabetização (2016)' => '97.4%',
                     'Mortalidade infantil (2016)' => '10.5‰',
-                    'Expectativa de vida (2016)' => '78.1 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Expectativa de vida (2016)' => '78.1 anos'
                 ),
                 'Espirito Santo' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/4/43/Bandeira_do_Espírito_Santo.svg',
@@ -148,8 +143,7 @@
                     'IDH (2010)' => 0.740,
                     'Alfabetização (2016)' => '93.8%',
                     'Mortalidade infantil (2016)' => '8.8‰',
-                    'Expectativa de vida (2016)' => '78.2 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Expectativa de vida (2016)' => '78.2 anos'
                 ),
                 'Goias' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_Goiás.svg',
@@ -165,8 +159,7 @@
                     'IDH (2010)' => 0.735,
                     'Alfabetização (2016)' => '93.5%',
                     'Mortalidade infantil (2016)' => '14.9‰',
-                    'Expectativa de vida (2016)' => '74.2 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Expectativa de vida (2016)' => '74.2 anos'
                 ),
                 'Maranhao' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/4/45/Bandeira_do_Maranhão.svg',
@@ -182,8 +175,7 @@
                     'IDH (2010)' => 0.639,
                     'Alfabetização (2016)' => '83.3%',
                     'Mortalidade infantil (2016)' => '21.3‰',
-                    'Expectativa de vida (2016)' => '70.6 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Expectativa de vida (2016)' => '70.6 anos'
                 ),
                 'Mato Grosso' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/0/0b/Bandeira_de_Mato_Grosso.svg',
@@ -199,8 +191,7 @@
                     'IDH (2010)' => 0.725,
                     'Alfabetização (2016)' => '93.5%',
                     'Mortalidade infantil (2016)' => '16.9‰',
-                    'Expectativa de vida (2016)' => '74.2 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Expectativa de vida (2016)' => '74.2 anos'
                 ),
                 'Mato Grosso do Sul' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/6/64/Bandeira_de_Mato_Grosso_do_Sul.svg',
@@ -216,8 +207,7 @@
                     'IDH (2010)' => 0.729,
                     'Alfabetização (2016)' => '93.7%',
                     'Mortalidade infantil (2016)' => '14.0‰',
-                    'Expectativa de vida (2016)' => '75.5 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Expectativa de vida (2016)' => '75.5 anos'
                 ),
                 'Minas Gerais' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/f/f4/Bandeira_de_Minas_Gerais.svg',
@@ -233,8 +223,7 @@
                     'IDH (2010)' => 0.731,
                     'Alfabetização (2016)' => '93.8%',
                     'Mortalidade infantil (2016)' => '10.9‰',
-                    'Expectativa de vida (2016)' => '77.2 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Expectativa de vida (2016)' => '77.2 anos'
                 ),
                 'Para' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/0/02/Bandeira_do_Pará.svg',
@@ -250,8 +239,7 @@
                     'IDH (2010)' => 0.646,
                     'Alfabetização (2016)' => '90.7%',
                     'Mortalidade infantil (2016)' => '16.6‰',
-                    'Expectativa de vida (2016)' => '72.1 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Expectativa de vida (2016)' => '72.1 anos'
                 ),
                 'Paraiba' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/b/bb/Bandeira_da_Paraíba.svg',
@@ -267,8 +255,7 @@
                     'IDH (2010)' => 0.658,
                     'Alfabetização (2016)' => '83.7%',
                     'Mortalidade infantil (2016)' => '16.1‰',
-                    'Expectativa de vida (2016)' => '73.2 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Expectativa de vida (2016)' => '73.2 anos'
                 ),
                 'Parana' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/9/93/Bandeira_do_Paraná.svg',
@@ -284,8 +271,7 @@
                     'IDH (2010)' => 0.749,
                     'Alfabetização (2016)' => '95.5%',
                     'Mortalidade infantil (2016)' => '9.3‰',
-                    'Expectativa de vida (2016)' => '77.1 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Expectativa de vida (2016)' => '77.1 anos'
                 ),
                 'Pernambuco' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/5/59/Bandeira_de_Pernambuco.svg',
@@ -301,8 +287,7 @@
                     'IDH (2010)' => 0.673,
                     'Alfabetização (2016)' => '87.2%',
                     'Mortalidade infantil (2016)' => '12.7‰',
-                    'Expectativa de vida (2016)' => '73.9 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Expectativa de vida (2016)' => '73.9 anos'
                 ),
                 'Piaui' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/3/33/Bandeira_do_Piauí.svg',
@@ -318,8 +303,7 @@
                     'IDH (2010)' => 0.646,
                     'Alfabetização (2016)' => '82.8%',
                     'Mortalidade infantil (2016)' => '19.1‰',
-                    'Expectativa de vida (2016)' => '71.1 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Expectativa de vida (2016)' => '71.1 anos'
                 ),
                 'Rio de Janeiro' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/7/73/Bandeira_do_estado_do_Rio_de_Janeiro.svg',
@@ -335,8 +319,7 @@
                     'IDH (2010)' => 0.761,
                     'Alfabetização (2016)' => '97.3%',
                     'Mortalidade infantil (2016)' => '11.5‰',
-                    'Expectativa de vida (2016)' => '76.2 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Expectativa de vida (2016)' => '76.2 anos'
                 ),
                 'Rio Grande do Norte' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/3/30/Bandeira_do_Rio_Grande_do_Norte.svg',
@@ -352,8 +335,7 @@
                     'IDH (2010)' => 0.684,
                     'Alfabetização (2016)' => '85.3%',
                     'Mortalidade infantil (2016)' => '14.7‰',
-                    'Expectativa de vida (2016)' => '75.7 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Expectativa de vida (2016)' => '75.7 anos'
                 ),
                 'Rio Grande do Sul' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/6/63/Bandeira_do_Rio_Grande_do_Sul.svg',
@@ -369,8 +351,7 @@
                     'IDH (2010)' => 0.746,
                     'Alfabetização (2016)' => '96.8%',
                     'Mortalidade infantil (2016)' => '9.6‰',
-                    'Expectativa de vida (2016)' => '77.8 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Expectativa de vida (2016)' => '77.8 anos'
                 ),
                 'Rondonia' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Bandeira_de_Rondônia.svg',
@@ -386,8 +367,7 @@
                     'IDH (2010)' => 0.690,
                     'Alfabetização (2016)' => '93.3%',
                     'Mortalidade infantil (2016)' => '20.0‰',
-                    'Expectativa de vida (2016)' => '71.3 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Expectativa de vida (2016)' => '71.3 anos'
                 ),
                 'Roraima' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/9/98/Bandeira_de_Roraima.svg',
@@ -403,8 +383,7 @@
                     'IDH (2010)' => 0.707,
                     'Alfabetização (2016)' => '93.4%',
                     'Mortalidade infantil (2016)' => '17.2‰',
-                    'Expectativa de vida (2016)' => '71.5 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Expectativa de vida (2016)' => '71.5 anos'
                 ),
                 'Santa Catarina' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/1/1a/Bandeira_de_Santa_Catarina.svg',
@@ -420,8 +399,7 @@
                     'IDH (2010)' => 0.774,
                     'Alfabetização (2016)' => '97.2%',
                     'Mortalidade infantil (2016)' => '9.2‰',
-                    'Expectativa de vida (2016)' => '79.1 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Expectativa de vida (2016)' => '79.1 anos'
                 ),
                 'Sao Paulo' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/2/2b/Bandeira_do_estado_de_São_Paulo.svg',
@@ -437,8 +415,7 @@
                     'IDH (2010)' => 0.783,
                     'Alfabetização (2016)' => '97.2%',
                     'Mortalidade infantil (2016)' => '9.9‰',
-                    'Expectativa de vida (2016)' => '78.1 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Expectativa de vida (2016)' => '78.1 anos'
                 ),
                 'Sergipe' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/b/be/Bandeira_de_Sergipe.svg',
@@ -454,8 +431,7 @@
                     'IDH (2010)' => 0.665,
                     'Alfabetização (2016)' => '85.3%',
                     'Mortalidade infantil (2016)' => '16.2‰',
-                    'Expectativa de vida (2016)' => '72.7 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Expectativa de vida (2016)' => '72.7 anos'
                 ),
                 'Tocantins' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/f/ff/Bandeira_do_Tocantins.svg',
@@ -471,42 +447,19 @@
                     'IDH (2010)' => 0.699,
                     'Alfabetização (2016)' => '89.6%',
                     'Mortalidade infantil (2016)' => '15.8‰',
-                    'Expectativa de vida (2016)' => '73.4 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Expectativa de vida (2016)' => '73.4 anos'
                 ),
             ];
         ?>
 
-        <h1>Lista sintética</h1>
+        <h1>Editar Estado</h1>
 
-        <table>
-            <thead>
-                <?php
-                    foreach ($countiesdata as $county => $countydata) {
-                        echo '<tr>';
-                        foreach ($countydata as $type => $info) {
-                            echo "<th>$type</th>";
-                        }
-                        echo '</tr>';
-                        break;
-                    }
-                ?>
-            </thead>
-
-            <tbody>
-                <?php
-                    foreach ($countiesdata as $county => $countydata) {
-                        echo '<tr>';
-                        foreach ($countydata as $type => $info) {
-                            echo $type === 'Bandeira' ? "<td><img src=\"$info\" alt=\"\" width=\"50px\"></td>" : "<td>$info</td>";
-                        }
-                    }
-                ?>
-            </tbody>
-        </table>
+        <?php
+            if (isset($_GET[''])) {
+                # code...
+            }
+        ?>
     </main>
-    <footer>
-        <p>&copy;2023 - Matheus Vieira</p>
-    </footer>
 </body>
+
 </html>
