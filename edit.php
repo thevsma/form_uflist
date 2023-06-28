@@ -455,8 +455,11 @@
         <h1>Editar Estado</h1>
 
         <?php
-            if (isset($_GET[''])) {
-                # code...
+            $query = $_GET["county"];
+            foreach ($countiesdata as $county => $values) {
+                if ($query == $county) {
+                    echo "<p>deu certo no estado $county</p>";
+                }
             }
         ?>
     </main>

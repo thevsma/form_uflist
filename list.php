@@ -30,7 +30,7 @@
                     'Alfabetização (2016)' => '86.9%',
                     'Mortalidade infantil (2016)' => '17.0‰',
                     'Expectativa de vida (2016)' => '73.9 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Editar' => "<a href=\"edit.php?county=Acre\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
                 ),
                 'Alagoas' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/8/88/Bandeira_de_Alagoas.svg',
@@ -47,7 +47,7 @@
                     'Alfabetização (2016)' => '80.6%',
                     'Mortalidade infantil (2016)' => '19.5‰',
                     'Expectativa de vida (2016)' => '71.6 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Editar' => "<a href=\"edit.php?county=Alagoas\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
                 ),
                 'Amapa' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/0/0c/Bandeira_do_Amapá.svg',
@@ -64,7 +64,7 @@
                     'Alfabetização (2016)' => '95%',
                     'Mortalidade infantil (2016)' => '23.2‰',
                     'Expectativa de vida (2016)' => '73.9 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Editar' => "<a href=\"edit.php?county=Amapa\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
                 ),
                 'Amazonas' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/6/6b/Bandeira_do_Amazonas.svg',
