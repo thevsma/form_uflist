@@ -81,7 +81,7 @@
                     'Alfabetização (2016)' => '93.1%',
                     'Mortalidade infantil (2016)' => '18.2‰',
                     'Expectativa de vida (2016)' => '71.9 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Editar' => "<a href=\"edit.php?county=Amazonas\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
                 ),
                 'Bahia' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/2/28/Bandeira_da_Bahia.svg',
@@ -98,7 +98,7 @@
                     'Alfabetização (2016)' => '87%',
                     'Mortalidade infantil (2016)' => '17.3‰',
                     'Expectativa de vida (2016)' => '73.5 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Editar' => "<a href=\"edit.php?county=Bahia\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
                 ),
                 'Ceara' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/2/2e/Bandeira_do_Ceará.svg',
@@ -115,7 +115,7 @@
                     'Alfabetização (2016)' => '84.8%',
                     'Mortalidade infantil (2016)' => '14.4‰',
                     'Expectativa de vida (2016)' => '73.8 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Editar' => "<a href=\"edit.php?county=Ceara\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
                 ),
                 'Distrito Federal' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/3/3c/Bandeira_do_Distrito_Federal_%28Brasil%29.svg',
@@ -132,7 +132,7 @@
                     'Alfabetização (2016)' => '97.4%',
                     'Mortalidade infantil (2016)' => '10.5‰',
                     'Expectativa de vida (2016)' => '78.1 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Editar' => "<a href=\"edit.php?county=Distrito Federal\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
                 ),
                 'Espirito Santo' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/4/43/Bandeira_do_Espírito_Santo.svg',
@@ -149,7 +149,7 @@
                     'Alfabetização (2016)' => '93.8%',
                     'Mortalidade infantil (2016)' => '8.8‰',
                     'Expectativa de vida (2016)' => '78.2 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Editar' => "<a href=\"edit.php?county=Espirito Santo\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
                 ),
                 'Goias' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_Goiás.svg',
@@ -166,7 +166,7 @@
                     'Alfabetização (2016)' => '93.5%',
                     'Mortalidade infantil (2016)' => '14.9‰',
                     'Expectativa de vida (2016)' => '74.2 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Editar' => "<a href=\"edit.php?county=Goias\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
                 ),
                 'Maranhao' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/4/45/Bandeira_do_Maranhão.svg',
@@ -183,7 +183,7 @@
                     'Alfabetização (2016)' => '83.3%',
                     'Mortalidade infantil (2016)' => '21.3‰',
                     'Expectativa de vida (2016)' => '70.6 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Editar' => "<a href=\"edit.php?county=Maranhao\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
                 ),
                 'Mato Grosso' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/0/0b/Bandeira_de_Mato_Grosso.svg',
@@ -200,7 +200,7 @@
                     'Alfabetização (2016)' => '93.5%',
                     'Mortalidade infantil (2016)' => '16.9‰',
                     'Expectativa de vida (2016)' => '74.2 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Editar' => "<a href=\"edit.php?county=Mato Grosso\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
                 ),
                 'Mato Grosso do Sul' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/6/64/Bandeira_de_Mato_Grosso_do_Sul.svg',
@@ -217,7 +217,7 @@
                     'Alfabetização (2016)' => '93.7%',
                     'Mortalidade infantil (2016)' => '14.0‰',
                     'Expectativa de vida (2016)' => '75.5 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Editar' => "<a href=\"edit.php?county=Mato Grosso do Sul\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
                 ),
                 'Minas Gerais' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/f/f4/Bandeira_de_Minas_Gerais.svg',
@@ -234,7 +234,7 @@
                     'Alfabetização (2016)' => '93.8%',
                     'Mortalidade infantil (2016)' => '10.9‰',
                     'Expectativa de vida (2016)' => '77.2 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Editar' => "<a href=\"edit.php?county=Minas Gerais\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
                 ),
                 'Para' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/0/02/Bandeira_do_Pará.svg',
@@ -251,7 +251,7 @@
                     'Alfabetização (2016)' => '90.7%',
                     'Mortalidade infantil (2016)' => '16.6‰',
                     'Expectativa de vida (2016)' => '72.1 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Editar' => "<a href=\"edit.php?county=Para\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
                 ),
                 'Paraiba' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/b/bb/Bandeira_da_Paraíba.svg',
@@ -268,7 +268,7 @@
                     'Alfabetização (2016)' => '83.7%',
                     'Mortalidade infantil (2016)' => '16.1‰',
                     'Expectativa de vida (2016)' => '73.2 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Editar' => "<a href=\"edit.php?county=Paraiba\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
                 ),
                 'Parana' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/9/93/Bandeira_do_Paraná.svg',
@@ -285,7 +285,7 @@
                     'Alfabetização (2016)' => '95.5%',
                     'Mortalidade infantil (2016)' => '9.3‰',
                     'Expectativa de vida (2016)' => '77.1 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Editar' => "<a href=\"edit.php?county=Parana\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
                 ),
                 'Pernambuco' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/5/59/Bandeira_de_Pernambuco.svg',
@@ -302,7 +302,7 @@
                     'Alfabetização (2016)' => '87.2%',
                     'Mortalidade infantil (2016)' => '12.7‰',
                     'Expectativa de vida (2016)' => '73.9 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Editar' => "<a href=\"edit.php?county=Pernambuco\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
                 ),
                 'Piaui' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/3/33/Bandeira_do_Piauí.svg',
@@ -319,7 +319,7 @@
                     'Alfabetização (2016)' => '82.8%',
                     'Mortalidade infantil (2016)' => '19.1‰',
                     'Expectativa de vida (2016)' => '71.1 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Editar' => "<a href=\"edit.php?county=Piaui\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
                 ),
                 'Rio de Janeiro' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/7/73/Bandeira_do_estado_do_Rio_de_Janeiro.svg',
@@ -336,7 +336,7 @@
                     'Alfabetização (2016)' => '97.3%',
                     'Mortalidade infantil (2016)' => '11.5‰',
                     'Expectativa de vida (2016)' => '76.2 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Editar' => "<a href=\"edit.php?county=Rio de Janeiro\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
                 ),
                 'Rio Grande do Norte' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/3/30/Bandeira_do_Rio_Grande_do_Norte.svg',
@@ -353,7 +353,7 @@
                     'Alfabetização (2016)' => '85.3%',
                     'Mortalidade infantil (2016)' => '14.7‰',
                     'Expectativa de vida (2016)' => '75.7 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Editar' => "<a href=\"edit.php?county=Rio Grande do Norte\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
                 ),
                 'Rio Grande do Sul' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/6/63/Bandeira_do_Rio_Grande_do_Sul.svg',
@@ -370,7 +370,7 @@
                     'Alfabetização (2016)' => '96.8%',
                     'Mortalidade infantil (2016)' => '9.6‰',
                     'Expectativa de vida (2016)' => '77.8 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Editar' => "<a href=\"edit.php?county=Rio Grande do Sul\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
                 ),
                 'Rondonia' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Bandeira_de_Rondônia.svg',
@@ -387,7 +387,7 @@
                     'Alfabetização (2016)' => '93.3%',
                     'Mortalidade infantil (2016)' => '20.0‰',
                     'Expectativa de vida (2016)' => '71.3 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Editar' => "<a href=\"edit.php?county=Rondonia\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
                 ),
                 'Roraima' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/9/98/Bandeira_de_Roraima.svg',
@@ -404,7 +404,7 @@
                     'Alfabetização (2016)' => '93.4%',
                     'Mortalidade infantil (2016)' => '17.2‰',
                     'Expectativa de vida (2016)' => '71.5 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Editar' => "<a href=\"edit.php?county=Roraima\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
                 ),
                 'Santa Catarina' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/1/1a/Bandeira_de_Santa_Catarina.svg',
@@ -421,7 +421,7 @@
                     'Alfabetização (2016)' => '97.2%',
                     'Mortalidade infantil (2016)' => '9.2‰',
                     'Expectativa de vida (2016)' => '79.1 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Editar' => "<a href=\"edit.php?county=Santa Catarina\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
                 ),
                 'Sao Paulo' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/2/2b/Bandeira_do_estado_de_São_Paulo.svg',
@@ -438,7 +438,7 @@
                     'Alfabetização (2016)' => '97.2%',
                     'Mortalidade infantil (2016)' => '9.9‰',
                     'Expectativa de vida (2016)' => '78.1 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Editar' => "<a href=\"edit.php?county=Sao Paulo\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
                 ),
                 'Sergipe' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/b/be/Bandeira_de_Sergipe.svg',
@@ -455,7 +455,7 @@
                     'Alfabetização (2016)' => '85.3%',
                     'Mortalidade infantil (2016)' => '16.2‰',
                     'Expectativa de vida (2016)' => '72.7 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Editar' => "<a href=\"edit.php?county=Sergipe\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
                 ),
                 'Tocantins' => array(
                     'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/f/ff/Bandeira_do_Tocantins.svg',
@@ -472,7 +472,7 @@
                     'Alfabetização (2016)' => '89.6%',
                     'Mortalidade infantil (2016)' => '15.8‰',
                     'Expectativa de vida (2016)' => '73.4 anos',
-                    'Editar' => "<a href=\"\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
+                    'Editar' => "<a href=\"edit.php?county=Tocantins\"><i class=\"fa-solid fa-pen-to-square\"></i></a>"
                 ),
             ];
         ?>
