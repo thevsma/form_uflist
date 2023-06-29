@@ -454,6 +454,19 @@
 
         <h1>Editar Estado</h1>
 
+        <form action="list.php" method="get">
+            <fieldset>
+                <legend>Editar Estado</legend>
+
+                <?php
+                    foreach ($countiesdata[$_GET["county"]] as $key => $value) {
+                        echo "<label for=\"$key\">$key</label>";
+                        echo "<input type=\"text\" name=\"$key\" value=\"$value\"><br>";
+                    }
+                ?>
+            </fieldset>
+        </form>
+
         <?php
             foreach ($countiesdata[$_GET["county"]] as $key => $value) {
                 echo $value;
