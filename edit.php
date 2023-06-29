@@ -17,9 +17,9 @@
     <main>
         <?php
             $countiesdata = [
-                'Acre' => array(
-                    'Bandeira' => 'https://upload.wikimedia.org/wikipedia/commons/4/4c/Bandeira_do_Acre.svg',
-                    'Unidade Federativa' => 'Acre',
+                "Acre" => array(
+                    "Bandeira" => "https://upload.wikimedia.org/wikipedia/commons/4/4c/Bandeira_do_Acre.svg",
+                    "Unidade Federativa" => "Acre",
                     'Abreviação' => 'AC',
                     'Sede de governo' => 'Rio Branco',
                     'Área (km^2)' => 164122.2,
